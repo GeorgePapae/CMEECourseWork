@@ -1,8 +1,5 @@
-#1 wc -l ../data/fasta/*
-#2 tail -n +2 ../data/fasta/ecoli.fasta
-#3 tail -n +2 ../data/fasta/ecoli.fasta | tr -d '\n' | wc -c
-#4 tail -n +2 ../data/fasta/ecoli.fasta | tr -d '\n' | grep -o 'ATGC' | wc -l
-#5 AT=$(tail -n +2 ../data/fasta/ecoli.fasta | tr -d '\n' | grep -o [AT] | wc -l
-#6 GC=$(tail -n +2 ../data/fasta/ecoli.fasta | tr -d '\n' | grep -o [GC] | wc -l
-#7 ratio=$(echo "scale=2; $AT / $GC" | bc)
-#8 echo "AT/GC ratio: $ratio"
+# wc -l ../data/fasta/*
+# tail -n +2 ../data/fasta/E.coli.fasta
+# tail -n +2 ../data/fasta/E.coli.fasta | tr -d '\n' | wc -c
+# tail -n +2 ../data/fasta/E.coli.fasta | tr -d '\n' | grep -o 'ATGC' | wc -l
+# AT=$(tail -n +2 ../data/fasta/E.coli.fasta | tr -d '\n' | grep -o [AT] | wc -l); GC=$(tail -n +2 ../data/fasta/E.coli.fasta | tr -d '\n' | grep -o [GC] | wc -l); ratio=$(echo "scale=2; $AT / $GC" | bc); echo "AT/GC ratio: $ratio"
