@@ -34,7 +34,7 @@ else:
 def calculate_score(s1, s2, l1, l2, startpoint):
     matched = "" # to hold string displaying alignements
     score = 0 
-    #import ipdb; ipdb.set_trace()
+    import ipdb; ipdb.set_trace()
     for i in range(l2):
 
         if (i + startpoint) < l1:
