@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Some functions exemplifying the use of control statements."""
+"""Some functions exemplifying the use of control statements, loops and functions."""
 
 __author__ = "George Papaeracleous (gp222@ic.ac.uk)"
 __version__ ="0.0.1"
@@ -26,14 +26,14 @@ def foo_3(x, y, z):
         x, z = z, x
     if y > z:
         y, z = z, y
-    return f" The numbers in ascending order are {x}, {y}, {z}!"
+    return f"The numbers in ascending order are {x}, {y}, {z}!"
 
 def foo_4(x):
     """Calculate the factorial of x."""
     result = 1
     for i in range(1, x + 1):
         result = result * i
-    return f"The factorial of x is {result}!"
+    return f"The factorial of {x} is {result}!"
 
 def foo_5(x): # a recursive function that calculates the factorial of x
     """Calculate the factorial of x using a recursive function."""

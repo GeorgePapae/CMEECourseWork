@@ -33,5 +33,6 @@ print(taxa_dic)
  
 #### Your solution here ####
 
-taxa_dic = {order: {taxon[0] for taxon in taxa if taxon[1] == order} for order in {taxon[1] for taxon in taxa}}
+taxa_dic = {order: {taxon[0] for taxon in taxa if taxon[1] == order} 
+            for order in {taxon[1] for taxon in taxa}}
 print(taxa_dic)
