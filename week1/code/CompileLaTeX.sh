@@ -19,15 +19,18 @@ if [[ $1 != *.tex ]]; then
 fi
 
 base=${1%.tex}
+outdir
 
 pdflatex $1
 bibtex $base
 pdflatex $1
 pdflatex $1
-evince $base.pdf &
+evince ../results/$base.pdf &
 
 ##Cleanup
 rm *.aux
 rm *.log
 rm *.bbl
 rm *.blg
+
+mv -f "$base.pdf" ../results/"$base.pdf"
