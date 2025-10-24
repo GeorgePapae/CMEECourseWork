@@ -21,9 +21,9 @@ def a_function():
 
 a_function()
 
-print("Inside the function, the value of _a_global is", _a_global)
-print("Inside the function, the value of _b_global is", _b_global)
-print("Inside the function, the value of _a_local is", _a_local)
+
+print("After calling a_function, outside the function, the value of _a_global is (still)", _a_global)
+print("After calling a_function, outside the function, the value of _b_global is (still)", _b_global)
 
 _a_global = 10
 

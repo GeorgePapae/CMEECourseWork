@@ -519,8 +519,8 @@ Before calling a_function, outside the function, the value of _a_global is 10
 Before calling a_function, outside the function, the value of _b_global is 15
 Inside the function, the value of _a_global is 4
 Inside the function, the value of _b_global is 9
-Inside the function, the value of _a_local is 3
-Inside the function, the value of _a_global is 10
+Inside the function, the value of  is 3
+Inside the function, the value of _a_glob_a_localal is 10
 Inside the function, the value of _b_global is 15
 
 **********
