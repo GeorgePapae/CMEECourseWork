@@ -1,7 +1,7 @@
 #!/bin/bash
-# Author: George giorgos.papaeracleous22@imperial.ac.uk
+# Author: George gp222@ic.ac.uk
 # Script: CountLines.sh
-# Desc: Counts the number of lines in a file
+# Desc: Counts the number of lines in a text file.
 # Arguments: 1 -> file1
 # Date: Oct 2025
 

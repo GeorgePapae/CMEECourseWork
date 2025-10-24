@@ -1,5 +1,5 @@
-# !/bin/sh
-# Author: George giorgos.papaeracleous22@imperial.ac.uk
+#!/bin/sh
+# Author: George gp222@ic.ac.uk
 # Script: variables.sh
 # Desc: Illustrates the use of variables
 # Arguments: none

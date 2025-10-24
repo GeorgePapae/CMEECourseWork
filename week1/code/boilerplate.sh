@@ -1,5 +1,5 @@
 # !/bin/sh
-# Author: George giorgos.papaeracleous22@imperial.ac.uk
+# Author: George gp222@ic.ac.uk
 # Script: boilerplate.sh
 # Desc: simple boilerplate for shell scripts
 # Arguments: none

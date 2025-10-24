@@ -1,9 +1,7 @@
 #!/bin/bash
-# Author: George giorgos.papaeracleous22@imperial.ac.uk
+# Author: George gp222@ic.ac.uk
 # Script: ConcatenateTwoFiles.sh
-# Desc: Merge two files
-# 
-# Saves the output into a new file
+# Desc: Merges two files and saves result into a new file.
 # Arguments: 1 -> file1
 #            2 -> file2
 #            3 -> output file

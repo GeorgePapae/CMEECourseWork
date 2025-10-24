@@ -1,9 +1,8 @@
-# !/bin/sh
-# Author: George giorgos.papaeracleous22@imperial.ac.uk
+#!/bin/sh
+# Author: George gp222@ic.ac.uk
 # Script: csvtospace.sh
-# Desc: substitute the commas in the files with spaces
-# 
-# Saves the output into a .txt file
+# Desc: Substitutes commas in a CSV file with spaces.
+#       Saves the output into a .txt file
 # Arguments: 1 -> comma separated values file
 # Date: Oct 2025
 

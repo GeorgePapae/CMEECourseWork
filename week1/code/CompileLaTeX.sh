@@ -2,8 +2,7 @@
 # Author: George giorgos.papaeracleous22@imperial.ac.uk
 # Script: CompileLaTeX.sh
 # Desc: Compile a LaTeX document with a bibliography
-# 
-# Removes auxiliary files after compilation
+#       removes auxiliary files, and saves PDF to ../results/
 # Arguments: 1 -> file.tex
 # Date: Oct 2025
 
@@ -15,7 +14,7 @@ fi
 if [[ $1 != *.tex ]]; then
     echo "Input file must be a .tex file"
     exit 1
-] ]
+ 
 fi
 
 base=${1%.tex}
