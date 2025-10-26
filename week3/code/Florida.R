@@ -24,5 +24,15 @@ for (i in 1:num_perms){
 p_value <- sum (perm_cor >= obs_cor)/ num_perms
 p_value
 
+png("../results/florida_line_graph.png")
+plot(ats$Year, ats$Temp, xlab = "Year", ylab = "Temperature (°C)",
+    main = "Annual Temperature from Key West, Florida (19011 - 2000)")
+abline(lm(Temp ~ Year, data = ats), col = "red", lwd=3)
+dev.off()
 
-hist(perm_cor)
+png("../results/florida_histogram.png")
+hist(perm_cor, main = "Distribution of Permutational Correlations",
+    xlab = "Correlation coefficient", xlim = c(-1,1))
+abline(v = obs_cor, col = "red", lwd=1)
+dev.off()
+
