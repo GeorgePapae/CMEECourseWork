@@ -5,8 +5,9 @@
 __author__ = "George Papaeracleous (gp222@ic.ac.uk)"
 __version__ ="0.0.1"
 
+#imports
 import sys
-
+# Function Examples
 def foo_1(x= 0):
     """Calculate the square root of x."""
     sqrt = x ** 0.5
@@ -52,7 +53,7 @@ def foo_6(x): # Calculate the factorial of x in a different way; no if statement
         facto = facto * x
         x = x - 1
     return f"The factorial of {ogx} is {facto}!"
-
+# Main function to run the above functions
 def main(argv):
     print(foo_1(35))
     print(foo_2(30, 40))

@@ -1,6 +1,8 @@
 ##############
 # FILE INPUT
 ##############
+__author__ = "George Papaeracleous (gp222@ic.ac.uk)"
+__version__ ="0.0.1"
 # Open a file for reading
 f = open('../sandbox/test.txt', 'r')
 #use 'implicit' for loop:

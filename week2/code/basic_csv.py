@@ -1,3 +1,7 @@
+
+__author__ = "George Papaeracleous (gp222@ic.ac.uk)"
+__version__ ="0.0.1"
+
 import csv
 
 # Read a file containing:
@@ -15,8 +19,8 @@ with open('../data/testcsv.csv','r') as f:
 with open('../data/testcsv.csv','r') as f:
     with open('../data/bodymass.csv','w') as g:
 
-        csvread = csv.reader(f)
-        csvwrite = csv.writer(g)
+        csvread = csv.reader(f) # read from file
+        csvwrite = csv.writer(g) # write to file
         for row in csvread:
-            print(row)
-            csvwrite.writerow([row[0], row[4]])
+            print(row)  # print the whole row
+            csvwrite.writerow([row[0], row[4]]) # write only desired subset of columns

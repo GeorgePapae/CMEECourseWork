@@ -6,7 +6,7 @@
 
 __author__ = "George Papaeracleous (gp222@ic.ac.uk)"
 __version__ ="0.0.1"
-
+# Imports
 import sys
 
 def even_or_odd(x=0): #if not specified, x should take value 0.
@@ -48,7 +48,7 @@ def find_all_primes(x=22):
             allprimes.append(i)
     print(f"There are {len(allprimes)} primes between 2 and {x}")
     return allprimes
-
+# Main function to run the above functions
 def main(argv):
     print(even_or_odd(22))
     print(even_or_odd(33))

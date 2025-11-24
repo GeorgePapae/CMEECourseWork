@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+
+"""Some functions exemplifying the use of loops and functions."""
+
+__author__ = "George Papaeracleous (gp222@ic.ac.uk)"
+__version__ ="0.0.1"
 
 ########################
 def hello_1(x):

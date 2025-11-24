@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+
+"""A script to create a dictionary mapping order names to sets of taxa."""
+
+__author__ = "George Papaeracleous (gp222@ic.ac.uk)"
+__version__ ="0.0.1"
+
+
 taxa = [ ('Myotis lucifugus','Chiroptera'),
          ('Gerbillus henleyi','Rodentia',),
          ('Peromyscus crinitus', 'Rodentia'),
@@ -21,12 +29,13 @@ taxa = [ ('Myotis lucifugus','Chiroptera'),
 
 #### Your solution here #### 
 
-taxa_dic={}
-for taxon in taxa:
+taxa_dic={} # initialize empty dictionary
+
+for taxon in taxa: # loop over each tuple in the list
         if taxon[1] not in taxa_dic:
-                taxa_dic[taxon[1]] = {taxon[0]}
+                taxa_dic[taxon[1]] = {taxon[0]} # create a new set
         else:
-                taxa_dic[taxon[1]].add(taxon[0])
+                taxa_dic[taxon[1]].add(taxon[0]) # add to existing set
 print(taxa_dic)
 
 # Now write a list comprehension that does the same (including the printing after the dictionary has been created)  

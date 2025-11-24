@@ -1,6 +1,8 @@
 #############################
 # STORING OBJECTS
 #############################
+__author__ = "George Papaeracleous (gp222@ic.ac.uk)"
+__version__ ="0.0.1"
 # To save an object (even complex) for later use
 my_dictionary = {"a key": 10, "another key": 11}
 
