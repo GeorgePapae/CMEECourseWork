@@ -7,10 +7,12 @@
 #            3 -> output file
 # Date: Oct 2025
 
+# Exit if two input files are not provided
 if [ ! $1 ] | [ ! $2 ]; then
     echo "Two input files are required"
     exit 1
 fi
+# Concatenate files and display result
 cat $1> $3
 cat $2 >> $3
 echo "Merged File is"

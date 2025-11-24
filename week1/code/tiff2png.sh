@@ -6,6 +6,7 @@
 # Arguments: none
 # Date: Oct 2025
 
+# Loop over all .tiff files in ../data/ and convert to .png
 for f in ../data/*.tiff; do
     base=$(basename "$f" .tiff)      
     echo "Converting $f -> ../results/$base.png"
