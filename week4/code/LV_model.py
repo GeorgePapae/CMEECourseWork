@@ -3,6 +3,7 @@ import scipy.integrate as integrate
 import matplotlib.pylab as p
 import numpy as np
 
+# Define Lotka-Volterra model parameters and equations
 def dCR_dt (pops, t=0):
     
     R = pops[0]
@@ -13,18 +14,18 @@ def dCR_dt (pops, t=0):
     return np.array([dRdt, dCdt])
 
 type(dCR_dt)
-
+# Parameter values
 r =1.
 a = 0.1
 z = 1.5
 e = 0.75
-
+# Time vector
 t = np.linspace(0, 15, 1000)
-
+# Initial conditions
 R0 = 10
 C0 = 5
 RC0 = np.array([R0, C0])
-
+# Integrate the ODEs using scipy.integrate.odeint()
 pops, infodict = integrate.odeint(dCR_dt, RC0, t, full_output=True)
 pops
 
@@ -32,9 +33,9 @@ type(infodict)
 
 infodict.keys()
 infodict['message']
-
+# Create a figure
 f1 = p.figure()
-
+# Plot the results
 p.plot(t, pops[:,0], 'g-', label='Resource density') # Plot
 p.plot(t, pops[:,1]  , 'b-', label='Consumer density')
 p.grid()
