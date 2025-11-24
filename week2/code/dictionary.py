@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# filename: dictionary.py
 """A script to create a dictionary mapping order names to sets of taxa."""
 
 __author__ = "George Papaeracleous (gp222@ic.ac.uk)"

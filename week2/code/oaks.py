@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+# filename: oaks.py
+""" A script to find oak species from a predefined list of tree species. """
+
+__author__ = "George Papaeracleous (gp222@ic.ac.uk)"
+__version__ ="0.0.1"
+
 ## Finds just those taxa that are oak trees from a list of species
 
 taxa = [ 'Quercus robur',
@@ -6,7 +13,7 @@ taxa = [ 'Quercus robur',
          'Quercus cerris',
          'Quercus petraea',
        ]
-
+# Define function returning oak species
 def is_an_oak(name):
     return name.lower().startswith('quercus ')
 

@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# filename: oaks_debugme.py
+""" A script to filter oak species from a CSV file of tree species, including minor spelling errors in species names."""
+
+__author__ = "George Papaeracleous (gp222@ic.ac.uk)"
+__version__ ="0.0.1"
+
+# Imports
 import csv
 import sys
 
@@ -24,7 +32,7 @@ def main(argv):
     for row in taxa:
         print(row)
         print ("The genus is: ") 
-        print(row[0] + '\n')
+        print(row[0] + '\n') # Returns the genus name
         if is_an_oak(row[0]):
             print('FOUND AN OAK!\n')
             csvwrite.writerow([row[0], row[1]])    

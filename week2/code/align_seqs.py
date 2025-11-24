@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# filename: align_seqs.py
 """Script to align two sequences and find the best alignment and score."""
 #docstrings are considered part of the running code (normal comments are
 #stripped). Hence, you can access your docstrings at run time#)

@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-
+# filename: test_control_flow.py
 """Some functions exemplifying the use of control statements."""
 #docstrings are considered part of the running code (normal comments are
 #stripped). Hence, you can access your docstrings at run time#)
 
 __author__ = "George Papaeracleous (gp222@ic.ac.uk)"
 __version__ ="0.0.1"
-
+# Imports
 import sys
 import doctest 
-
+ # Define function
 def even_or_odd(x=0):
     """Find whether a number x is even or odd.
       

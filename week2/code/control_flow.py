@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# filename: cfexercises1.py
 """Some functions exemplifying the use of control statements."""
 #docstrings are considered part of the running code (normal comments are
 #stripped). Hence, you can access your docstrings at run time#)

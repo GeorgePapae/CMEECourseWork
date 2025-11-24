@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# filename: lc2.py
 """A script to create lists of months with high and low rainfall using both loops and list comprehensions."""
 
 __author__ = "George Papaeracleous (gp222@ic.ac.uk)"

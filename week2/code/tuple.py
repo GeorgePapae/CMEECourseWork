@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# filename: tuple.py
+""" A script to print bird species information from a tuple of tuples. """
+
+__author__ = "George Papaeracleous (gp222@ic.ac.uk)"
+__version__ ="0.0.1"
+
+# Tuple of tuples of bird species
 birds = ( ('Passerculus sandwichensis','Savannah sparrow',18.7),
           ('Delichon urbica','House martin',19),
           ('Junco phaeonotus','Yellow-eyed junco',19.5),
@@ -10,7 +18,7 @@ birds = ( ('Passerculus sandwichensis','Savannah sparrow',18.7),
 # species 
 # 
 for bird in birds:
-    print(f"Latin name: {bird[0]} Common name: {bird[1]} Mass: {bird[2]}")
+    print(f"Latin name: {bird[0]} Common name: {bird[1]} Mass: {bird[2]}") # Extracting elements for each species
 
 # A nice example output is:
 # 

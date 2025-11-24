@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+# filename: scope.py
+""" A script to demonstrate global and local scope in Python. """
+
+__author__ = "George Papaeracleous (gp222@ic.ac.uk)"
+__version__ ="0.0.1"
+
 _a_global=10
 
 if _a_global >= 5:
