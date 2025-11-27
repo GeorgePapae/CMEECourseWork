@@ -46,11 +46,11 @@ Most scripts can be executed from the bash terminal using:
 
 ```bash
 python3 script_name.py
-
+'''
 If a script requires arguments (e.g. arg1), use:
-
+'''bash
 python3 script_name.py arg1
-
+'''
 ## Author
 
 George Papaeracleous
