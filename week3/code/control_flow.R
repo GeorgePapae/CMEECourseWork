@@ -1,3 +1,8 @@
+# Script name: control_flow.R
+# Description: Demonstration of control flow in R
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
+
 ### IF LOOPS ###
 a <- TRUE
 if (a== TRUE) {

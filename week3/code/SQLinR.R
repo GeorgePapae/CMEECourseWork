@@ -1,3 +1,8 @@
+# Script name: SQLinR.R
+# Description: Using SQL databases within R
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
+
 #install the sqlite package
 install.packages('sqldf')
 

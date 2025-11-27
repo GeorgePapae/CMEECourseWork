@@ -1,3 +1,8 @@
+# Script name: Vectorize2.R
+# Description: Vectorized implementation of the stochastic Ricker equation in R
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
+
 # Runs the stochastic Ricker equation with gaussian fluctuations
 
 rm(list = ls())

@@ -1,4 +1,7 @@
-# A boilerplate R script
+# Script name: boilerplate.R
+# Description: A boilerplate R script
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
 
 MyFunction <- function (Arg1, Arg2) {
 

@@ -1,3 +1,8 @@
+# Script name: try.R
+# Description: Demonstration of error handling in R using try and stop
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
+
 doit <- function(x) {
     temp_x <- sample(x, replace=TRUE)
     if(length(unique(temp_x)) > 30) {

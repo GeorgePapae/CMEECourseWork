@@ -1,3 +1,8 @@
+# Script name: PP_Regress.R
+# Description: Performing regression analysis on predator-prey body mass data
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
+
 mydata <- read.csv("../data/EcolArchives-E089-51-D1.csv", header = T)
 head(mydata)
 #Change columns to factor to use as grouping variables

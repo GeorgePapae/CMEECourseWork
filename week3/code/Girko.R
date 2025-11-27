@@ -1,3 +1,9 @@
+# Script name: Girko.R
+# Description: Plotting the eigenvalues of a random matrix to illustrate Girko's circle law
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
+
+require(ggplot2)
 build_ellipse <- function(hradius, vradius){ # function that returns an ellipse
   npoints = 250
   a <- seq(0, 2 * pi, length = npoints + 1)

@@ -1,3 +1,8 @@
+# Script name: Florida.R
+# Description: Permutation test on Key West Annual Mean Temperature data
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
+
 rm(list=ls())
 
 load("../data/KeyWestAnnualMeanTemperature.RData")

@@ -1,4 +1,9 @@
-################################################################
+# Script name: DataWrangTidy.R
+# Description: Data wrangling of the Pound Hill Dataset using tidyverse
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
+
+#################################################################
 ################## Wrangling the Pound Hill Dataset ############
 ################################################################
 require(tidyverse)

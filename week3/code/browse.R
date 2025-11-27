@@ -1,3 +1,8 @@
+# Script name: browse.R
+# Description: Demonstration of the browser function in R
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
+
 Exponential <- function(N0 = 1, r = 1, generations = 10) {
   # Runs a simulation of exponential growth
   # Returns a vector of length generations

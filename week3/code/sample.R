@@ -1,3 +1,8 @@
+# Script name: sample.R
+# Description: Sampling experiments with different implementations in R
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
+
 ######### Functions ##########
 
 ## A function to take a sample of size n from a population "popn" and return its mean

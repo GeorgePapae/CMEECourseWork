@@ -1,3 +1,8 @@
+# Script name: PP_Dists.R
+# Description: Analyzing predator-prey body mass distributions
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
+
 # Store and check data
 mydata <- read.csv("../data/EcolArchives-E089-51-D1.csv")
 

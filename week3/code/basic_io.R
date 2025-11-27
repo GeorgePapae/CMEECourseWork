@@ -1,4 +1,8 @@
-# A simple script to illustrate R input-output.  
+# Script name: basic_io.R
+# Description:A simple script to illustrate R input-output.  
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
+
 # Run line by line and check inputs outputs to understand what is happening  
 
 MyData <- read.csv("../data/trees.csv", header = TRUE) # import with headers

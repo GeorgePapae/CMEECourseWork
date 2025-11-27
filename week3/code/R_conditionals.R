@@ -1,3 +1,8 @@
+# Script name: R_conditionals.R
+# Description: Examples of conditional statements in R
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
+
 is.even <- function (n=2) {
     if (n%%2 == 0) {
         return (paste(n, "is even!"))

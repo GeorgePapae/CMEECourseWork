@@ -1,3 +1,8 @@
+# Script name: preallocate.R
+# Description: Demonstration of preallocating vectors in R for efficiency
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
+
 NoPreallocFun <- function(x) {
     a <- vector() # empty vector
     for (i in 1:x) {

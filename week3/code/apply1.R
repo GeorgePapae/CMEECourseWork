@@ -1,3 +1,8 @@
+# Script name: apply1.R
+# Description: Demonstration of the apply function in R
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
+
 ## Build a random matrix
 M <- matrix(rnorm(100), 10, 10)
 

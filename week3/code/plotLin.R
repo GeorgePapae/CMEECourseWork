@@ -1,3 +1,8 @@
+# Script name: plotLin.R
+# Description: Plotting a linear regression with ggplot2 in R
+# Author: George Papaeracleous (gp222@ic.ac.uk)
+# Date: November 2025
+
 x <- seq(0, 100, by = 0.1)
 y <- -4. + 0.25 * x +
   rnorm(length(x), mean = 0., sd = 2.5)
