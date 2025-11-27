@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # filename: test_control_flow.py
-"""Some functions exemplifying the use of control statements."""
-#docstrings are considered part of the running code (normal comments are
-#stripped). Hence, you can access your docstrings at run time#)
+"""Some functions showing the use of control statements."""
 
 __author__ = "George Papaeracleous (gp222@ic.ac.uk)"
 __version__ ="0.0.1"

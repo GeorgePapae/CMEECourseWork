@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # filename: cfexercises1.py
-"""Some functions exemplifying the use of control statements, loops and functions."""
+"""Some functions showing the use of control statements, loops and functions."""
 
 __author__ = "George Papaeracleous (gp222@ic.ac.uk)"
 __version__ ="0.0.1"

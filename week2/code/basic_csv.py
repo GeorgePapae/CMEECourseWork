@@ -1,7 +1,7 @@
 
 __author__ = "George Papaeracleous (gp222@ic.ac.uk)"
 __version__ ="0.0.1"
-
+""" Example of reading and writing CSV files using csv module."""
 import csv
 
 # Read a file containing:

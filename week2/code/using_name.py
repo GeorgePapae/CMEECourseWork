@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # Filename: using_name.py
+""" Demonstrates the use of __name__ variable."""
+
 __author__ = "George Papaeracleous (gp222@ic.ac.uk)"
 __version__ ="0.0.1"
 

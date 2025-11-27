@@ -3,6 +3,9 @@
 ##############
 __author__ = "George Papaeracleous (gp222@ic.ac.uk)"
 __version__ ="0.0.1"
+
+""" Example of reading input from a file."""
+
 # Open a file for reading
 f = open('../sandbox/test.txt', 'r')
 #use 'implicit' for loop:
