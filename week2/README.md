@@ -32,11 +32,11 @@ basic concepts in Python such as:
 - 'dictionary.py' - Creates a dictionary mapping order names to sets of taxa
 - 'lc1.py' - Creates lists of bird information using both loops and list comprehensions
 - 'lc2.py' - Creates lists of months with high and low rainfall using both loops and list comprehensions
-- 'loops.py' - 
+- 'loops.py' - Using for and while loops
 - 'oaks.py' - Finds oak species from a predefined list of tree species
 - 'oaks_debugme.py' - Filters oak species from a CSV file of tree species, including minor spelling errors in species names
 - 'scope.py' - Demonstrates global and local scope in Python
-- 'sysargv.py' - 
+- 'sysargv.py' - Example of using sys.argv to handle command-line arguments
 - 'test_control_flow.py' - Functions showing the use of control statements
 - 'tuple.py' - Prints bird species information from a tuple of tuples
 - 'using_name.py' - Demonstrates the use of __name__ variable
@@ -44,6 +44,7 @@ basic concepts in Python such as:
 ## How to run
 Most scripts can be executed from the bash terminal using:
 
+```bash
 python3 script_name.py
 
 If a script requires arguments (e.g. arg1), use:
