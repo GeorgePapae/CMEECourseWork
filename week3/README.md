@@ -1,7 +1,7 @@
 # Introduction to R
 ## Description
 
-This repository contains R scripts developed during Week 4 of the bioological computing bootcamp. The files contain:
+This repository contains R scripts developed during Week 3 of the bioological computing bootcamp. The files contain:
 - Data wrangling 
 - Mathematical modeling
 - Plotting and visualisation
