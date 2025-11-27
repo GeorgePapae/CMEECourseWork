@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+#filename: profileme2.py
+
+"""A module with functions to be profiled."""
+
 # Returns a list of squares
 def my_squares(iters):
     out = [i ** 2 for i in range(iters)]

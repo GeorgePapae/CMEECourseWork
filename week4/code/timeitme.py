@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+#filename: timeitme.py
+"""A script to compare performance of different coding approaches."""
+
 ##############################################################################
 # loops vs. list comprehensions: which is faster?
 ##############################################################################

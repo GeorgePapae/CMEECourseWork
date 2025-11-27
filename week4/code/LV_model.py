@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+#filename: LV_model.py
+"""Lotka-Volterra model of consumer-resource population dynamics."""
+
 import scipy as sci
 import scipy.integrate as integrate
 import matplotlib.pylab as p
