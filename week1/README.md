@@ -26,8 +26,9 @@ This week focused on foundational computational skills essential for data analys
 ## How to run
 Most scripts can be executed from the bash terminal using:
 
+```bash
 bash script_name.sh
-
+```
 ## Authors
 
 George Papaeracleous
