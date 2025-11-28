@@ -38,10 +38,10 @@ colnames(TempData) <- MyData[1,] # assign column names from original data
 ############# Convert from wide to long format  ###############
 require(reshape2) # load the reshape2 package
 
-?melt #check out the melt function
-
+#?melt #check out the melt function
+# Convert from wide to long format
 MyWrangledData <- melt(TempData, id=c("Cultivation", "Block", "Plot", "Quadrat"), variable.name = "Species", value.name = "Count")
- 
+# Convert columns to appropriate data types
 MyWrangledData[, "Cultivation"] <- as.factor(MyWrangledData[, "Cultivation"])
 MyWrangledData[, "Block"] <- as.factor(MyWrangledData[, "Block"])
 MyWrangledData[, "Plot"] <- as.factor(MyWrangledData[, "Plot"])

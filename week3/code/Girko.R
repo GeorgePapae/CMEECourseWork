@@ -3,6 +3,8 @@
 # Author: George Papaeracleous (gp222@ic.ac.uk)
 # Date: November 2025
 
+rm(list=ls()) # Clear workspace
+
 require(ggplot2)
 build_ellipse <- function(hradius, vradius){ # function that returns an ellipse
   npoints = 250
