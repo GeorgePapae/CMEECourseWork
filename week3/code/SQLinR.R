@@ -3,8 +3,10 @@
 # Author: George Papaeracleous (gp222@ic.ac.uk)
 # Date: November 2025
 
-#install the sqlite package
-install.packages('sqldf')
+#Clear workspace
+rm(list=ls())
+#install the sqlite package if not already installed
+# install.packages('sqldf')
 
 # To load the packages
 library(sqldf)

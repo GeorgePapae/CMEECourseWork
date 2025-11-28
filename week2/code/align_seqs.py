@@ -9,7 +9,7 @@ __version__ ="0.0.1"
 
 
 import csv
-
+# Read in the two sequences from the csv file
 with open("../data/sequences.csv", "r") as f:
     csvread = csv.reader(f)
     seqs = [row[1] for row in csvread]

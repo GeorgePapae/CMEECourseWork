@@ -21,9 +21,6 @@ basic concepts in Python such as:
 - 'MyExampleScript.py'
 - 'align_seqs.py' - Aligns two sequences and find the best alignment and score
 - 'basic_csv.py' - Example of reading and writing CSV files using csv module
-- 'basic_io1.py' - Example of reading input from a file
-- 'basic_io2.py' - Example of writing output to a file
-- 'basic_io3.py' - Example of storing objects using pickle module
 - 'boilerplate.py' - Standard Python boilerplate with a template structure for Python scripts
 - 'cfexercises1.py' - Some functions showing the use of control statements, loops and functions
 - 'cfexercises2.py' - Some functions showing the use of loops and functions

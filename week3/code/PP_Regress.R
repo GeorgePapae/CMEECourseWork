@@ -3,6 +3,9 @@
 # Author: George Papaeracleous (gp222@ic.ac.uk)
 # Date: November 2025
 
+# Clear workspace
+rm(list=ls())
+# Read in the data
 mydata <- read.csv("../data/EcolArchives-E089-51-D1.csv", header = T)
 head(mydata)
 #Change columns to factor to use as grouping variables
@@ -55,33 +58,3 @@ df <- mydata %>%
         )
     })
 write.csv(df,"../results/PP_Regress_Results.csv", row.names = FALSE)
-
-
-
-head(mydata)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
