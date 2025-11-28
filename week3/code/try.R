@@ -3,6 +3,8 @@
 # Author: George Papaeracleous (gp222@ic.ac.uk)
 # Date: November 2025
 
+rm(list=ls()) # Clear workspace
+# Define a function that samples from a population and calculates the mean
 doit <- function(x) {
     temp_x <- sample(x, replace=TRUE)
     if(length(unique(temp_x)) > 30) {
@@ -11,12 +13,13 @@ doit <- function(x) {
         stop("Couldn't calculate mean: too few unique values")
     }
 }
-
+# Generate a population and plot its histogram
 set.seed(1345)
 popn <- rnorm(50)
 hist (popn)
-
-lapply(1:15, function(i) doit(popn))
+# Run the function multiple times
+# lapply(1:15, function(i) doit(popn)) # Halts execution on error, so we use try instead
+# Using try to handle errors
 
 result <- lapply(1:15, function(i) try(doit(popn), FALSE))
 
