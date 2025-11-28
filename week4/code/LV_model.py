@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 #filename: LV_model.py
-"""Lotka-Volterra model of consumer-resource population dynamics."""
+#Author: George Papaeracleous (gp222@ic.ac.uk)
+#Date: November 2025
 
+"""Lotka-Volterra model of consumer-resource population dynamics."""
+# Imports
 import scipy as sci
 import scipy.integrate as integrate
 import matplotlib.pylab as p
