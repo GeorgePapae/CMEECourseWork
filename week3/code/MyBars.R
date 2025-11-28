@@ -3,6 +3,9 @@
 # Author: George Papaeracleous (gp222@ic.ac.uk)
 # Date: November 2025
 
+rm(list=ls()) # Clear workspace
+# Load necessary library and data
+library(ggplot2)
 a <- read.table("../data/Results.txt", header = TRUE)
 head(a)
 a$ymin <- rep(0, dim(a)[1]) # append a column of zeros
