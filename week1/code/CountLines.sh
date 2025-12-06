@@ -11,6 +11,6 @@ if [ ! $1 ]; then
     exit 1
 fi
 # Count number of lines in the file
-NumLines='wc -l < $1'
+NumLines=$(wc -l < "$1")
 echo "The file $1 has $NumLines lines"
 echo
