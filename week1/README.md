@@ -37,7 +37,7 @@ bash script_name.py arg1
 ### Example Commands
 ```bash
 bash MyExampleScript.sh
-bash ConcatenateTwoFiles.sh
+bash CountLines.sh ../data/fasta/E.coli.fasta
 ```
 ## Author
 
