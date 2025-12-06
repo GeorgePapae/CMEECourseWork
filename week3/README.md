@@ -47,6 +47,11 @@ Most scripts can be executed from the bash terminal using:
 Rscript script_name.R
 ```
 
+### Example Commands
+
+```bash
+Rscript DataWrang.R
+```
 ## Author
 
 George Papaeracleous

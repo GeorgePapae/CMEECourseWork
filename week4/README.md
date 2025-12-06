@@ -22,6 +22,11 @@ Most scripts can be executed from the bash terminal using:
 ```bash
 python3 script_name.py
 ```
+### Example Commands
+
+```bash
+python3 LV_model.py
+```
 
 ## Author
 
